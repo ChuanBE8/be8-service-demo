@@ -8,7 +8,7 @@ var express = require('express'),
 	handlers = require('./modules/handlers'),
 	postbacks = require('./modules/postbacks'),
 	global = require('./global'),
-	FB_VERIFY_TOKEN = 'apassword1',
+	FB_VERIFY_TOKEN = 'EAAIlSdWiEYgBAOttE5hPmnlHeU5bRP2OrZAEeeic4KMXRCEVD5X2xOBhnyJ59cM581JxWLKczGCiRS99aZC72kFLtXfKoAK9xjXBRJPnhc8bvbZBk5uOy44pQ4PRRfcoy8pmp3tv9qPRoYUymQMJ5C339jbgr4HUs8r4VmrDRPUlWCbovCm',
 	app = express(),
 	Queue = require('better-queue');
 

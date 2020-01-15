@@ -8,7 +8,7 @@ let request = require('request'),
 	LIVE_AGENT_LANGUAGE = 'en-US',
 	SCREEN_RES = '1900x1080',
 	VISITOR_NAME = 'FB ppl',
-	CASE_RECORD_TYPE = '';
+	CASE_RECORD_TYPE = ''; 
 
 exports.botSend = (message, recipient) => {
 	
